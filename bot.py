@@ -1,3 +1,6 @@
+import os
+TOKEN = os.getenv("8241501478:AAE02YhGZAOtdcSz80fYGx1e0vyIwdWPZeE")
+
 import sqlite3
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
@@ -129,3 +132,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

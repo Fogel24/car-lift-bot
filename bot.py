@@ -118,7 +118,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     init_db()
-    TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+    TOKEN = "8241501478:AAE02YhGZAOtdcSz80fYGx1e0vyIwdWPZeE"
 
     app = Application.builder().token(TOKEN).build()
     app.add_handler(CommandHandler("reserve", reserve))
@@ -132,5 +132,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
